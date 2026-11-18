@@ -1,0 +1,34 @@
+
+{
+  "name": "mvc-scaffold-js",
+  "version": "1.0.0",
+  "description": "Generate Express MVC projects and CRUD resources with a simple CLI",
+  "main": "src/index.js",
+  "bin": {
+    "mvc-scaffold-js": "./bin/cli.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "mvc",
+    "scaffold",
+    "generator",
+    "express",
+    "nodejs",
+    "cli",
+    "crud"
+  ],
+  "author": "Tanushri",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
